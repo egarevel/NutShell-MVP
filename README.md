@@ -392,7 +392,7 @@ await session.prompt("Say hi!");
 
 1. **Clone or Download:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/nutshell-extension.git
+   git clone https://github.com/egarevel/nutshell-extension.git
    cd nutshell-extension/NutShell-MVP
    ```
 
@@ -569,9 +569,6 @@ NutShell is built for the Chrome AI Challenge 2025. After the competition, we'll
 ## 📚 Resources
 
 - 📖 **[User Guide](USER-GUIDE.md)** — Complete feature walkthrough
-- 🔧 **[TECHNICAL.md](TECHNICAL.md)** — Architecture and implementation
-- 📊 **[Executive Summary](ExecutiveSummary.md)** — One-page overview
-- 🏆 **[Chrome AI Challenge](https://googlechromeai2025.devpost.com/)** — Competition details
 
 ---
 
