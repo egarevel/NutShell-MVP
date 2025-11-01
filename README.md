@@ -475,7 +475,7 @@ await session.prompt("Say hi!");
 
 ## 🎬 See It in Action
 
-> **📹 [3-Minute Demo Video](https://youtube.com/placeholder)** *(Coming Soon)*
+> **📹 [3-Minute Demo Video](https://youtu.be/vDNN5VgLWGk)**
 
 **Demo Scenarios:**
 1. **Research Mode**: "best budget laptops 2024" → Full autonomous research
