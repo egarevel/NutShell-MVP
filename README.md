@@ -1,6 +1,6 @@
 # NutShell — Your Browser's Cognitive Partner
 
-<div align="center">
+
 
 ![NutShell Logo](assets/logo.png)
 
@@ -15,7 +15,7 @@
 
 **[📥 Get Started](#-get-started)** • **[🎬 Watch Demo](#-see-it-in-action)** • **[🏆 Hackathon Details](#-chrome-ai-challenge-2025)** • **[📖 User Guide](USER-GUIDE.md)**
 
-</div>
+ 
 
 ---
 
@@ -311,7 +311,7 @@ We're building a future where browsers don't just display information — they h
 
 ## 🏆 Chrome AI Challenge 2025
 
-Built for the **[Google Chrome Built-in AI Challenge 2025]** — showcasing the transformative potential of on-device AI.
+Built for the **[Google Chrome Built-in AI Challenge 2025](https://googlechromeai2025.devpost.com/)** — showcasing the transformative potential of on-device AI.
 
 ### **Why NutShell Stands Out**
 
@@ -600,13 +600,11 @@ Absolutely. 100% local processing means your research never leaves your device. 
 
 ---
 
-<div align="center">
-
 ## 🌟 Transform Your Web Browsing
 
-### Your browser is about to get **a mind of its own**.
+Your browser is about to get **a mind of its own**.
 
-**[📥 Get Started Now](#-get-started)** • **[🎬 Watch Demo](#-see-it-in-action)** • **[⭐ Star on GitHub](#)**
+[📥 Get Started Now](#-get-started) • [🎬 Watch Demo](#-see-it-in-action) • [⭐ Star on GitHub](#)
 
 ---
 
@@ -621,8 +619,6 @@ Absolutely. 100% local processing means your research never leaves your device. 
 
 **Try NutShell today. Your research will never be the same.** 🚀
 
-</div>
-
 ---
 
 ## 📄 License
@@ -633,12 +629,6 @@ MIT License — Use freely, modify openly, share widely.
 
 ---
 
-<div align="center">
-
 ### 🔗 Links
 
-**[Chrome AI Challenge](https://googlechromeai2025.devpost.com/)** • **[GitHub](https://github.com/YOUR_USERNAME/nutshell-extension)** • **[Documentation](TECHNICAL.md)** • **[User Guide](USER-GUIDE.md)**
-
-</div>
-#   N u t S h e l l - M V P  
- 
+[Chrome AI Challenge](https://googlechromeai2025.devpost.com/) • [GitHub](https://github.com/YOUR_USERNAME/nutshell-extension) • [Documentation](TECHNICAL.md) • [User Guide](USER-GUIDE.md)
