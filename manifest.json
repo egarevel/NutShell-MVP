@@ -1,0 +1,87 @@
+{
+  "manifest_version": 3,
+  "name": "Nutshell",
+  "version": "0.1.0",
+  "description": "Intelligent page summaries and Q&A powered by Chrome AI",
+  "permissions": [
+    "activeTab",
+    "sidePanel",
+    "storage",
+    "tabs",
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content/content-script.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "*://www.google.com/search*",
+        "*://www.google.co.uk/search*",
+        "*://www.google.ca/search*",
+        "*://www.google.com.au/search*",
+        "*://www.google.de/search*",
+        "*://www.google.fr/search*",
+        "*://www.google.co.in/search*",
+        "*://www.google.it/search*",
+        "*://www.google.es/search*",
+        "*://www.google.nl/search*",
+        "*://www.google.com.br/search*",
+        "*://www.google.co.jp/search*",
+        "*://www.google.com.mx/search*",
+        "*://www.google.com.ar/search*",
+        "*://www.google.ru/search*",
+        "*://www.google.pl/search*",
+        "*://www.google.se/search*",
+        "*://www.google.no/search*",
+        "*://www.google.dk/search*",
+        "*://www.google.fi/search*"
+      ],
+      "js": ["content/google-serp-extractor.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidebar/sidebar.html"
+  },
+  "action": {
+    "default_title": "Open Nutshell"
+  },
+  "chrome_url_overrides": {
+    "newtab": "research-mode.html"
+  },
+  "icons": {
+    "16": "assets/logo.png",
+    "32": "assets/logo.png",
+    "48": "assets/logo.png",
+    "128": "assets/logo.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "workers/*.js",
+        "lib/*.js",
+        "lib/transformers/*.js",
+        "assets/logo.png",
+        "cache.html",
+        "cache-viewer.js",
+        "research-mode.css"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}
